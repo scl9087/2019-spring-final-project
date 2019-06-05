@@ -3,5 +3,5 @@
     "name": "find-a-friend",
     "builds": [
       { "src": "**/*.js", "use": "@now/node" }
-    ],
+    ]
   }
