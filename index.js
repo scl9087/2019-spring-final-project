@@ -36,6 +36,8 @@ app.get('/', (req, res) => {
         });
 });
 
+module.exports = app;
+
 // Start the app on the provided port
 app.listen(port, () => {
     console.log(`Service listening on port ${port}`);
