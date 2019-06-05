@@ -3,7 +3,7 @@ const fetch = require('isomorphic-fetch');
 const cors = require('cors');
 
 const port = 4000;
-// App id for openweathermap
+// App id for PetFinder
 const APP_ID = process.env.APP_ID;
 const SECRET_ID = process.env.SECRET_ID;
 
@@ -20,8 +20,8 @@ app.get('/', (req, res) => {
         },
         method: 'POST',
         body: JSON.stringify({
-            client_id:{APP_ID},
-            client_secret: {SECRET_ID},
+            client_id: APP_ID,
+            client_secret: SECRET_ID,
             grant_type: 'client_credentials'
         })
     })
