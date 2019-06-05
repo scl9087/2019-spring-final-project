@@ -5,6 +5,7 @@ const cors = require('cors');
 const port = 4000;
 // App id for openweathermap
 const APP_ID = process.env.APP_ID;
+const SECRET_ID = process.env.SECRET_ID;
 
 // Initialize app and enable cross-origin resource sharing
 const app = express();
