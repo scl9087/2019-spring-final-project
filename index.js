@@ -19,8 +19,8 @@ app.get('/', (req, res) => {
         },
         method: 'POST',
         body: JSON.stringify({
-            client_id:'EiGQ2v31EDdcP5MsFIlq2WEyrFSelKDAeMCOaVPsnEgLcNdQrz',
-            client_secret: 'cMSCZc5UFqdDcVGQrr4hgEtYFQPvRMV7NefKZ0GG',
+            client_id:{APP_ID},
+            client_secret: {SECRET_ID},
             grant_type: 'client_credentials'
         })
     })
