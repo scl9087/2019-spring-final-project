@@ -1,6 +1,6 @@
 {
     "version": 2,
-    "name": "find-a-friend",
+    "name": "archive",
     "builds": [
       { "src": "**/*.js", "use": "@now/node" }
     ]
